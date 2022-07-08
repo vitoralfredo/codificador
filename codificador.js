@@ -7,9 +7,12 @@ codificar.addEventListener("input", function(){
     var botaoCripitografar = document.querySelector("#cripitografar");
     botaoCripitografar.addEventListener("click", function(){
 
+        var mensagem = (document.querySelector("#mensagem"));
+        mensagem.innerHTML = "Cripitografado:";
+        mensagem.classList.add("style");
+
         var imprimir = (document.querySelector("#imprimir"));
         imprimir.innerHTML = cripitografado;
-        imprimir.classList.add("imprimir");
     });
    
 });
@@ -23,9 +26,12 @@ decodificar.addEventListener("input", function(){
     var botaoDescripitografar = document.querySelector("#descripitografar");
     botaoDescripitografar.addEventListener("click", function(){
 
+        var mensagem = (document.querySelector("#mensagem"));
+        mensagem.innerHTML = "Descripitografado:";
+        mensagem.classList.add("style");
+        
         var imprimir = (document.querySelector("#imprimir"));
         imprimir.innerHTML = descripitografado;
-        imprimir.classList.add("imprimir");
     });
    
 });

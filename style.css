@@ -10,9 +10,18 @@ header h1{
     margin-right: auto;
     margin-top: 10px;
 }
-#imprimir{
+.style{
 	font-size: 1.4em;
 	vertical-align:	middle;
     padding-top: 10px;
-    display: inline;
+    display: inline-block;
+}
+#mensagem{
+    margin-top: 10px;
+}
+#imprimir{
+   margin-top: 10px; 
+}
+.teste{
+    margin-top: 50px;
 }
