@@ -5,30 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codificador</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
-        <div class="container"><h1>Codificador</h1></div>
+        <h1>Codificador</h1>
     </header>
     <main>
-        <section class="container">
-            <input type="text" name="filtro" id="teste" placeholder="Digite seu texto">
-            <button id="cripitografar" class="botao bto-principal">Criptografar</button>
-            <button id="descripitografar" class="botao bto-principal">Descriptografar</button>
-            <div>
-                <label id="mensagem" class="style"><br><h3>Mensagem</h3></label>
-            </div>
-            <div>
-                <label id="imprimir" class="style"><br><h3>...</h3></label>
-            </div>
-            </section>
-        
+        <div>
+            <input type="text" name="filtro" id="input" placeholder="Digite seu texto">
+        </div>
+        <div class="botoes">
+            <button id="cripitografar">Criptografar</button>
+            <button id="descripitografar">Descriptografar</button>
+        </div>
+        <div>
+            <label id="mensagem" class="tela"><br>
+                <h3>Nenhuma mensagem encotrada</h3>
+            </label>
+        </div>
+        <div>
+            <label id="imprimir" class="tela">
+                <h3>...</h3>
+            </label>
+        </div>
     </main>
 
-    <script src="codificador.js"></script>
+    <script src="js/codificador.js"></script>
+    <script src="js/decodificador.js"></script>
 
 </body>
 </html>

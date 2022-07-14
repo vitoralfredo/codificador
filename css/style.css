@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    position: relative;
+    width: 1300px;
+    height: 1024px;
+    background: #E5E5E5;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.container{
+    
+}
